@@ -56,11 +56,11 @@
       </TabPane>
       <HBox alignment="CENTER_LEFT" fillHeight="false" layoutX="48.0" layoutY="19.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="50.0" spacing="10.0" style="-fx-background-color: lightgray;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Button fx:id="btnExit" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="120.0" text="Sair" />
-            <Button fx:id="btnAddBookToLibrary" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addBookToLibrary" prefHeight="30.0" prefWidth="120.0" text="Adicionar " HBox.hgrow="NEVER" />
+            <Button fx:id="btnExit" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="120.0" text="Sair" HBox.hgrow="NEVER" />
+            <Button fx:id="btnAddBookToLibrary" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#addBookToLibrary" prefHeight="30.0" prefWidth="120.0" text="Adicionar " HBox.hgrow="NEVER" />
          </children>
          <padding>
-            <Insets left="10.0" />
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </padding>
       </HBox>
    </children>

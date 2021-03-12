@@ -19,10 +19,10 @@
    <children>
       <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="50.0" style="-fx-background-color: lightgray;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Button fx:id="btnExit" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="120.0" text="Sair" />
+            <Button fx:id="btnExit" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="120.0" text="Sair" />
          </children>
          <padding>
-            <Insets left="10.0" />
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </padding>
       </HBox>
       <TabPane layoutX="192.0" layoutY="90.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
@@ -46,10 +46,10 @@
                         </TableView>
                         <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
                            <children>
-                              <Button fx:id="btnAddBook" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addBook" prefHeight="30.0" prefWidth="120.0" text="Adicionar Livro" />
-                              <Button fx:id="btnEditBook" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#editBook" prefHeight="30.0" prefWidth="120.0" text="Editar Livro" />
-                              <Button fx:id="btnRemoveBook" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#removeBook" prefHeight="30.0" prefWidth="120.0" text="Remover" />
-                              <Button fx:id="btnRefreshBookTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#refreshBookTable" prefHeight="30.0" prefWidth="120.0" text="Atualiza Tabela" HBox.hgrow="NEVER" />
+                              <Button fx:id="btnAddBook" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#addBook" prefHeight="30.0" prefWidth="120.0" text="Adicionar Livro" />
+                              <Button fx:id="btnEditBook" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#editBook" prefHeight="30.0" prefWidth="120.0" text="Editar Livro" />
+                              <Button fx:id="btnRemoveBook" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#removeBook" prefHeight="30.0" prefWidth="120.0" text="Remover" />
+                              <Button fx:id="btnRefreshBookTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#refreshBookTable" prefHeight="30.0" prefWidth="120.0" text="Atualiza Tabela" HBox.hgrow="NEVER" />
                            </children>
                         </HBox>
                      </children></AnchorPane>
@@ -100,7 +100,7 @@
                                              </VBox.margin>
                                           </Label>
                                           <TextField fx:id="txtWriterEmail" maxHeight="-Infinity" minHeight="-Infinity" onAction="#addWriter" prefHeight="30.0" VBox.vgrow="NEVER" />
-                                          <Button fx:id="btnSaveWriter" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addWriter" prefHeight="30.0" prefWidth="120.0" text="Salvar" VBox.vgrow="NEVER">
+                                          <Button fx:id="btnSaveWriter" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#addWriter" prefHeight="30.0" prefWidth="120.0" text="Salvar" VBox.vgrow="NEVER">
                                              <VBox.margin>
                                                 <Insets top="10.0" />
                                              </VBox.margin>
@@ -112,7 +112,7 @@
                         </SplitPane>
                         <HBox alignment="CENTER" fillHeight="false" layoutX="207.0" layoutY="273.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
                            <children>
-                              <Button fx:id="btnRemoveWriter" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#removeWriter" prefHeight="30.0" prefWidth="120.0" text="Remover" HBox.hgrow="NEVER" />
+                              <Button fx:id="btnRemoveWriter" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#removeWriter" prefHeight="30.0" prefWidth="120.0" text="Remover" HBox.hgrow="NEVER" />
                            </children>
                         </HBox>
                      </children></AnchorPane>
@@ -125,9 +125,9 @@
                         <ListView fx:id="genreList" editable="true" layoutX="20.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
                         <HBox alignment="CENTER" layoutX="200.0" layoutY="267.0" prefHeight="30.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
                            <children>
-                              <TextField fx:id="txtGenre" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#addGenre" prefHeight="30.0" prefWidth="250.0" HBox.hgrow="NEVER" />
-                              <Button fx:id="btnAddGenre" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addGenre" prefHeight="30.0" prefWidth="120.0" text="Adicionar" HBox.hgrow="NEVER" />
-                              <Button fx:id="btnRemoveGenre" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#removeGenre" prefHeight="30.0" prefWidth="120.0" text="Remover" HBox.hgrow="NEVER" />
+                              <TextField fx:id="txtGenre" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" onAction="#addGenre" prefHeight="30.0" prefWidth="250.0" HBox.hgrow="NEVER" />
+                              <Button fx:id="btnAddGenre" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#addGenre" prefHeight="30.0" prefWidth="120.0" text="Adicionar" HBox.hgrow="NEVER" />
+                              <Button fx:id="btnRemoveGenre" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#removeGenre" prefHeight="30.0" prefWidth="120.0" text="Remover" HBox.hgrow="NEVER" />
                            </children>
                         </HBox>
                      </children></AnchorPane>
@@ -199,7 +199,7 @@
                         </SplitPane>
                         <HBox alignment="CENTER" fillHeight="false" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
                            <children>
-                              <Button fx:id="btnRemovePublisher" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#removePublisher" prefHeight="30.0" prefWidth="120.0" text="Remover" HBox.hgrow="NEVER" />
+                              <Button fx:id="btnRemovePublisher" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#removePublisher" prefHeight="30.0" prefWidth="120.0" text="Remover" HBox.hgrow="NEVER" />
                            </children>
                         </HBox>
                      </children></AnchorPane>
