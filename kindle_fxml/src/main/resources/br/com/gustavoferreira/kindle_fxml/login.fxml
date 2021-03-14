@@ -25,9 +25,9 @@
       </VBox>
       <HBox alignment="CENTER" fillHeight="false" layoutX="107.0" layoutY="86.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="380.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
          <children>
-            <Button fx:id="btnLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#login" prefHeight="30.0" prefWidth="120.0" text="Entrar" HBox.hgrow="NEVER" />
-            <Button fx:id="btnRegister" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#register" prefHeight="30.0" prefWidth="120.0" text="Cadastrar" HBox.hgrow="NEVER" />
-            <Button fx:id="btnExit" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="120.0" text="Sair" HBox.hgrow="NEVER" />
+            <Button fx:id="btnLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#login" prefHeight="30.0" prefWidth="120.0" text="Entrar" HBox.hgrow="NEVER" />
+            <Button fx:id="btnRegister" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#register" prefHeight="30.0" prefWidth="120.0" text="Cadastrar" HBox.hgrow="NEVER" />
+            <Button fx:id="btnExit" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="120.0" text="Sair" HBox.hgrow="NEVER" />
          </children>
       </HBox>
    </children>
